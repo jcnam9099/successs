@@ -31,8 +31,15 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
+		// 	model 에 serverTime 이라는 이름으로 	formattedDate 값을 넣고있음
 		model.addAttribute("serverTime", formattedDate );
 		
+		// model 에 result 라는 이름으로 지난번에 만든 사칙연산의 결과를 넣는다.
+
+
+		// 결과는 4 개이므로 result1, result2, result3, result4 이렇게 4 개가 필요함.
+		// home.jsp 에 각4개를 뿌려준다.
+
 		return "home";
 	}
 	
