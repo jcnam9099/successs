@@ -31,7 +31,7 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
-		// 	model 에 serverTime 이라는 이름으로 	formattedDate 값을 넣고있음
+		// model 에 serverTime 이라는 이름으로 formattedDate 값을 넣고있음
 		model.addAttribute("serverTime", formattedDate );
 		
 		// model 에 result 라는 이름으로 지난번에 만든 사칙연산의 결과를 넣는다.
