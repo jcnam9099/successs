@@ -10,5 +10,9 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<p>a+b= ${add}</p>
+<p>a-b= ${sub}</p>
+<p>a*b= ${mul}</p>
+<p>a/b= ${div1}</p>
 </body>
 </html>
