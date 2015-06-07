@@ -13,6 +13,8 @@
 <p>a+b= ${add}</p>
 <p>a-b= ${sub}</p>
 <p>a*b= ${mul}</p>
-<p>a/b= ${div1}</p>
+<p>a/b= ${divide}</p>
+<p>${DB_result}</p>
+
 </body>
 </html>
